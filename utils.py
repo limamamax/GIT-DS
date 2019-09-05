@@ -1,10 +1,10 @@
 import pandas as pd
     def hello_world():
-            print("")
+            print("Esto es clon del original en otra carpeta")
             print("Hello World!)
     
     def show_df(df):
         print(df.shape)
-        display(df)
+        display(df.head())
+        display(df.describe())
                   
-   print("Cambio")
